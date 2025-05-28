@@ -24,7 +24,6 @@ resource "aws_lb_target_group" "web_tg" {
     enabled = true
     path                = "/"
     protocol            = "HTTP"
-    port = 80
     interval            = 300
     timeout             = 60
     healthy_threshold   = 5
